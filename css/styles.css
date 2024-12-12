@@ -35,6 +35,26 @@ body {
     transition: 0.2s ease-in-out;
 }
 
+.sabias {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(15, 46, 159, 0.715);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    z-index: 2000; 
+}
+
+.sabias h2 {
+    padding: 20px;
+}
+
 .posicion {
     position: absolute; 
     text-align: center;
@@ -98,13 +118,51 @@ body {
 
 @media (max-width: 600px) {
     body {
-      font-size: 16px; /* Tamaño de fuente adecuado para pantallas pequeñas */
+        font-size: 16px; /* Tamaño de fuente adecuado para pantallas pequeñas */
+    }
+    .posicion{
+        font-size: 16px;
+        width: 400px;
+        height: auto;
+        position: absolute; 
+        text-align: center;
+        top: 20%;
+        left: 100%;
     }
     .navbar {
-      flex-direction: column; /* Organiza la navegación verticalmente */
-      align-items: center;
+        flex-direction: row; /* Organiza la navegación horizontalmente */
+        align-items: center;
+        width: 200%;
+        height: auto;
+        padding-bottom: 10px;
     }
-    .sidebar {
-      display: none; /* Oculta la barra lateral en móviles para evitar el desorden */
+    .sabias {
+        display: none; /* Oculta el apartado ¿sabias que? en móviles para evitar el desorden */
     }
   } 
+
+  @media (max-width: 1024px) {
+    
+    body {
+        font-size: 18px; /* Tamaño de fuente un poco mayor, adaptado a pantallas medianas */
+      }
+    .posicion{
+        font-size: 16px;
+        width: 400px;
+        height: auto;
+        position: absolute; 
+        text-align: center;
+        top: 22%;
+        left: 50%;
+    }
+      .navbar {
+        flex-direction: row; /* Volvemos la navegación a horizontal */
+        justify-content: space-around;
+      }
+      .sabias {
+        display: none; /* Oculta el apartado ¿sabias que? en tabletas para evitar el desorden */
+    }
+  }
+
+
+  
