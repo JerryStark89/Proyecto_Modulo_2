@@ -12,7 +12,7 @@ Este proyecto es una página web sencilla que presenta informacion sobre los oc�
 
 ## **Características**
 - Una página que muestra las caracteristicas de los oscéanos:
-  - **PacíficFlora y fauna:** Los elevados niveles de luz y nutrientes, junto con la abundancia de oxígeno, hacen de la zona intermareal un ambiente biológicamente productivo.
+  - **Flora y fauna:** Los elevados niveles de luz y nutrientes, junto con la abundancia de oxígeno, hacen de la zona intermareal un ambiente biológicamente productivo.
   - **Corrientes oceánicas:** Las diferencias de temperatura en los océanos originan las corrientes oceánicas.
   - **Mareas:** El agua de los océanos nunca está quieta, sino que se halla en constante movimiento debido a los distintos tipos de mareas existentes.
   - **Temperatura de los océanos:** La temperatura de los océanos varía según la ubicación, la estación del año y la profundidad.
