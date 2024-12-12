@@ -27,3 +27,38 @@
     background-color: #427f89;
     transition: 0.2s ease-in-out;
 }
+
+h1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.contenedor{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    padding: 20px;
+    width: 800px;
+    height: 500px;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    background-color: #67e6ef;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
