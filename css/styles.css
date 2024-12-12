@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: rgb(54, 36, 77);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.navbar a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar a:hover{
+    background-color: #427f89;
+    transition: 0.2s ease-in-out;
+}
