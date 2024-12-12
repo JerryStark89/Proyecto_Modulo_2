@@ -55,18 +55,6 @@ body {
     padding: 20px;
 }
 
-.posicion {
-    position: absolute; 
-    text-align: center;
-    top: 12%;
-    left: 50%;
-    width: 800px;
-    transform: translate(-50%, -50%);
-    background-color: #9ae5eb9d;
-    padding: 20px;
-    z-index: 2000;
-}
-
 .contenedor{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
@@ -79,7 +67,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: space-around;
-    margin: 90px auto;
+    margin: 20px auto;
     background-color: #9ae5eb9d;
     font-size: 17px;
     text-align: justify;
@@ -120,15 +108,6 @@ body {
     body {
         font-size: 16px; /* Tamaño de fuente adecuado para pantallas pequeñas */
     }
-    .posicion{
-        font-size: 16px;
-        width: 400px;
-        height: auto;
-        position: absolute; 
-        text-align: center;
-        top: 20%;
-        left: 100%;
-    }
     .navbar {
         flex-direction: row; /* Organiza la navegación horizontalmente */
         align-items: center;
@@ -146,15 +125,6 @@ body {
     body {
         font-size: 18px; /* Tamaño de fuente un poco mayor, adaptado a pantallas medianas */
       }
-    .posicion{
-        font-size: 16px;
-        width: 400px;
-        height: auto;
-        position: absolute; 
-        text-align: center;
-        top: 22%;
-        left: 50%;
-    }
       .navbar {
         flex-direction: row; /* Volvemos la navegación a horizontal */
         justify-content: space-around;
