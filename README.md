@@ -1,6 +1,6 @@
 # **Proyecto del modulo 2**
 
-Este proyecto es una página web sencilla que presenta informacion sobre los océanos mediante el uso de flexbox, box-sizing, especificidad, fuentes, herencias, positions, z-index, navbar y footer, asi como media queries para celulares.
+Este proyecto es una página web sencilla que presenta informacion sobre los océanos mediante el uso de flexbox, box-sizing, especificidad, fuentes, herencias, positions, z-index, navbar y footer, asi como media queries para un diseño responsivo.
 
 
 ## **Tecnologías utilizadas**
